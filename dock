@@ -1,0 +1,13 @@
+Docker week-8
+
+sudo su
+yum install docker
+
+sudo systemctl enable docker
+sudo systemctl start docker
+
+docker pull MySQL
+docker run MYSQL
+docker images
+
+docker ps -a
