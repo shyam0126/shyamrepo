@@ -1,0 +1,23 @@
+sudo su 
+yum install git
+
+mkdir shyam
+cd shyam
+git init
+git config --global user.name "shyam"
+git config --global user.email "22r21a0526@mlrit.ac.in"
+git config --list
+
+vi vamrepo
+matter in file
+to exit(:wq!)
+
+git add .
+git status
+git commit -m "File is Created"
+git status
+git remote add origin "https://github.com/Vamshi2004-web/vamshi1.git"
+git branch
+git push -u origin master
+username:'https://github.com': vam
+password:
